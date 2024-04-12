@@ -1,2 +1,28 @@
-# Performance_Monitoring
-This is a self project based on AWS, Kubernetes, Docker, Python
+# Performance Monitoring App
+
+This project is a self-initiated endeavor focusing on AWS, Kubernetes, Docker, Python, and HTML technologies.
+
+## Project Overview
+The primary goal of this project is to develop a web application that can monitor system metrics such as CPU and memory usage. It utilizes Python's `psutil` library to collect system metrics and Flask to build a web interface for presenting these metrics. Docker is employed for containerizing the application, facilitating easy deployment and management. Kubernetes is utilized to deploy the application in a clustered environment, ensuring scalability and reliability.
+
+## Project Steps
+### Step 1: Deploying the Flask Application Locally
+- Clone the repository
+- Install the necessary dependencies
+- Run the Flask application
+
+### Step 2: Dockerizing the Flask Application
+- Create a Dockerfile
+- Build the Docker image
+- Run the Docker container
+
+### Step 3: Pushing the Docker Image to Amazon ECR
+- Create an Amazon ECR repository
+- Push the Docker image to Amazon ECR
+
+### Step 4: Creating an Amazon EKS Cluster and Deploying the Application Using Python
+- Create an Amazon EKS cluster
+- Create a node group
+- Deploy the application using Python by creating a deployment and service
+
+This structured approach ensures that the application can be developed, containerized, and deployed in a scalable and efficient manner, leveraging the capabilities of AWS and Kubernetes.
